@@ -3,8 +3,5 @@
 ################################################################################
 
 /.vs
-/TowerOfBabel/bin/Debug/net8.0-windows10.0.19041.0/win10-x64
+/TowerOfBabel/bin
 /TowerOfBabel/obj
-/TowerOfBabel/Platforms/Android/Resources/values-it
-/TowerOfBabel/it_IT.xaml
-/TowerOfBabel/it_IT.xaml.cs
