@@ -2,24 +2,33 @@
 {
     public partial class App : Application
     {
-        public static string piattaforma;
-        public static ResourceDictionary d;
+        private static string piattaforma;
+        public static string Piattaforma { get => piattaforma; }
+        private static ResourceDictionary dic;
+        public static ResourceDictionary d { get => dic; }
+
         public App()
         {
             InitializeComponent();
-            try { d = Resources[System.Globalization.CultureInfo.CurrentCulture.TwoLetterISOLanguageName] as ResourceDictionary; }
-            catch (Exception ex) { d = Resources["en"] as ResourceDictionary; }
-
-#if ANDROID
-            MainPage = new AppShell();
-#else
-            MainPage = new AppShellWindows();
-#endif
+            try { dic = Resources[System.Globalization.CultureInfo.CurrentCulture.TwoLetterISOLanguageName] as ResourceDictionary; }
+            catch (Exception ex) { dic = Resources["en"] as ResourceDictionary; }
             piattaforma = DeviceInfo.Current.Model;
             if (piattaforma == "System Product Name")
                 piattaforma = "Windows " + DeviceInfo.Current.VersionString;
 
         }
+
+#if ANDROID
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new AppShell());
+        }
+#else
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new AppShellWindows());
+        }
+#endif
 
     }
 }

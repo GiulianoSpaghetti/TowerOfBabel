@@ -1,4 +1,4 @@
-namespace La_torre_di_babele;
+namespace TowerOfBabel;
 
 public partial class es_ES : ResourceDictionary
 {

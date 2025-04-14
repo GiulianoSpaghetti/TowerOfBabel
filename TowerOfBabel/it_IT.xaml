@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="TowerOfBabel.it_IT">
+    <system:String x:Key="Home">La torre di babele</system:String>
+    <system:String x:Key="Informazioni">Informazioni</system:String>
+    <system:String x:Key="HaiCompletato">Hai completato il solitario La Torre di Babele in</system:String>
+    <system:String x:Key="GiocareAncora">mosse. Vuoi effettuare una nuova partita</system:String>
+    <system:String x:Key="PartitaFinita">Partita finita</system:String>
+    <system:String x:Key="NuovaPartita">Nuova Partita</system:String>
+    <system:String x:Key="Esci">Esci</system:String>
+    <system:String x:Key="File">Archivio</system:String>
+    <system:String x:Key="Info">?</system:String>
+</ResourceDictionary>

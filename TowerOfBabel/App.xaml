@@ -8,6 +8,7 @@
             <ResourceDictionary x:Key="en" Source="en_US.xaml" />
             <ResourceDictionary x:Key="es" Source="es_ES.xaml" />
             <ResourceDictionary x:Key="fr" Source="fr_FR.xaml" />
+            <ResourceDictionary x:Key="it" Source="it_IT.xaml" />
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
