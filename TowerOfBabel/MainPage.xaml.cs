@@ -125,7 +125,7 @@ namespace TowerOfBabel
                 Applicazione.SetColumn(im1, a / 9);
                 Applicazione.SetRow(im1, a % 9);
             }
-            else if ((vettore[a] < vettore[b] && vettore[b]<10) || vettore[b]>9 && vettore[b-1]<10)
+            else if (vettore[a] < vettore[b] && vettore[b]<10)
             {
                 c = vettore[b + 1];
                 vettore[b + 1] = vettore[a];
