@@ -3,6 +3,8 @@
 ![Napoli-Logo](https://github.com/user-attachments/assets/802ba5f0-bade-46f6-a4ed-74526258b3f6)
 ![made in parco grifeo](https://github.com/user-attachments/assets/53db171f-cfc6-45d7-b46f-963e99723741)
 
+Best used on surface pro 11 and android 16
+
 ## La campagna pubblicitaria di Google
 
 Questo software è stato oggetto di una campagna pubblicitaria, dicendo che le IA prima di essere messe a lavorare devono divertirsi perché piccole, ed infatti questo gioco è troppo difficile per un essere umano, ma una intelligenza artificiale riesce a finirlo in poco tempo.
