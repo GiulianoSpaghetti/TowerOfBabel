@@ -41,7 +41,7 @@ Per windows i package msix sono platform indepedent ed in IL, per cui è suffici
 
 ## Bug noti
 
-Non sempre lo spostamento della carta riesce, è consigliabile cliccare due o tre volte sulla arta da muovere e dopo una sola volta sul pst i cui muoverla per ovviare al problema.
+Non sempre lo spostamento della carta riesce, è consigliabile cliccare due o tre volte sulla carta da muovere e dopo una sola volta sul posto in cui muoverla per ovviare al problema.
 
 Se si vuole effettuare una seconda o una terza partita c'è un dorso mancante nella visualizzazione. Basta chiudere e riaprire il programma.
 
