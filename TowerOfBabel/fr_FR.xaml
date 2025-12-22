@@ -4,7 +4,7 @@
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              x:Class="TowerOfBabel.fr_FR">
     <system:String x:Key="Home">Tour de Babel</system:String>
-    <system:String x:Key="Informations">Informations</system:String>
+    <system:String x:Key="Informazioni">Informations</system:String>
     <system:String x:Key="HaiCompletato">Vous avez terminé la tour de Babel solitaire en</system:String>
     <system:String x:Key="GiocareAncora">se déplace. Voulez-vous rejouer</system:String>
     <system:String x:Key="PartitaFinita">Game over</system:String>
