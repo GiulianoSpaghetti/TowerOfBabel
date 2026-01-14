@@ -12,7 +12,7 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <VerticalStackLayout>
-            <Label>ⓒ Giulio Sorrentino 2023-2025, some right reserved</Label>
+            <Label>ⓒ Giulio Sorrentino 2023-2026, some right reserved</Label>
             <Label>Solitarie: Tower of Babel 3.1</Label>
             <Label>The solitaire the tower of babel consists in putting all cards in decreasing order in only one row, moving the lowers on the highers in any manner</Label>
             <Label>The images of cards are property of Modiano</Label>
