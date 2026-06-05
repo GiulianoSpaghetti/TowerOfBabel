@@ -16,9 +16,9 @@ namespace TowerOfBabel
             InitializeComponent();
             vettore = new UInt16[27];
             ElaboratoreCarteBriscola e = new ElaboratoreCarteBriscola(true, 9, 1, 9);
-            Mazzo m = new Mazzo(e);
+            Mazzo m = new Mazzo(e, "Napoletano");
             org.altervista.numerone.framework.solitario.CartaHelper chs = new org.altervista.numerone.framework.solitario.CartaHelper();
-            Carta.Inizializza(10, chs, "", "", "", "");
+            Carta.Inizializza(m, 10, chs, "", "", "", "", "", "", "", "");
             mnFile.Text=App.d["File"] as string;
             mnNuovaPartita.Text=App.d["NuovaPartita"] as string;
             mnEsci.Text=App.d["Esci"] as string;
@@ -183,7 +183,7 @@ namespace TowerOfBabel
             int a = 0, b = 0;
             mosse = 0;
             ElaboratoreCarteBriscola e = new ElaboratoreCarteBriscola(true, 9, 1, 9);
-            Mazzo m = new Mazzo(e);
+            Mazzo m = new Mazzo(e, "Napoletano");
 
             UInt16 c;
             Image img;

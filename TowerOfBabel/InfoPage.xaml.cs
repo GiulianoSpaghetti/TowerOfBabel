@@ -1,7 +1,7 @@
 namespace TowerOfBabel;
 public partial class InfoPage : ContentPage
 {
-    public static readonly Uri uri = new Uri("https://github.com/GiulianoSpaghetti/solitario.maui")
+    public static readonly Uri uri = new Uri("https://github.com/GiulianoSpaghetti/TowerOfBabel")
 
     ; public InfoPage()
 	{
