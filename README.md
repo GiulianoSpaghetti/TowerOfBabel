@@ -11,6 +11,7 @@ Questo software è stato oggetto di una campagna pubblicitaria, dicendo che le I
 
 
 
+
 ## Solitario.maui
 Il solitario la torre di babele in maui, riesce sempre.
 Lo scopo del gioco è ordinare le carte dal 10 al 2 spostando le più piccole sulle più grandi in qualsiasi ordine.
