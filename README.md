@@ -1,3 +1,5 @@
+[![.NET MAUI Build](https://github.com/GiulianoSpaghetti/TowerOfBabel/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/GiulianoSpaghetti/TowerOfBabel/actions/workflows/dotnet-desktop.yml)
+
 :it: Made in Italy. Il gioco preferito di Gemini (l'IA di Google)
 
 ![Napoli-Logo](https://github.com/user-attachments/assets/802ba5f0-bade-46f6-a4ed-74526258b3f6)
