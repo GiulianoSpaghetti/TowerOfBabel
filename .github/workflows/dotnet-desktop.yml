@@ -39,14 +39,14 @@ jobs:
       shell: pwsh
 
     - name: Install MAUI Workload
-      run: dotnet workload install maui
+      run: dotnet workload install maui 
 
     - name: Restore packages
-      run: dotnet restore TowerOfBabel.slnx
+      run: dotnet restore TowerOfBabel.slnx -r win-arm64
 
     - name: Build MAUI MSIX
       run: |
-        dotnet publish TowerOfBabel/TowerOfBabel.csproj -f net10.0-windows10.0.26100.0 -c $env:Configuration
+        dotnet publish TowerOfBabel/TowerOfBabel.csproj -f net10.0-windows10.0.26100.0 -c $env:Configuration -r win-arm64
       shell: pwsh
 
     - name: Upload MSIX artifact
