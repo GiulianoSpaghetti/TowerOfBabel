@@ -13,7 +13,7 @@ jobs:
       matrix:
         configuration: [Release]
     env:
-      Solution_Name: TrumpSuitGameKnocked #use this even on line 57
+      Solution_Name: TowerOfBabel #use this even on line 57
       Configuration: ${{ matrix.configuration }}
       Architecture: win-x64
       Framework: net10.0-windows10.0.26100.0
@@ -53,6 +53,6 @@ jobs:
       uses: actions/upload-artifact@v7
       with:
         name: MSIX
-        path: TrumpSuitGameKnocked/AppPackages/
+        path: TowerOfBabel/AppPackages/
         include-hidden-files: true
         if-no-files-found: error
