@@ -71,12 +71,11 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="CardFramework.Maui" Version="1.6.15" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.70" />
-		<PackageReference Include="Microsoft.Maui.Essentials" Version="10.0.70" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.8" />
+    <ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.71" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="10.0.71" />
+		<PackageReference Include="CardFramework.Maui" Version="1.6.16" />
+		<PackageReference Include="Microsoft.NET.ILLink.Tasks" Version="10.0.9" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net10.0-windows10.0.26100.0'">
 		<PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.1839" />
